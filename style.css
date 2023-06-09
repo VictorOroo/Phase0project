@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
 body {
-    background-image: url('./images/7808cb16-01cf-4f16-9581-e71785591775.jpeg');
-    background-repeat: no-repeat;
+    background-color:rgb(239, 160, 45);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-size: cover;
     max-width: 1200px;
-
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+    background-image: url('/images/7808cb16-01cf-4f16-9581-e71785591775.jpeg');
+    
   }
   a{
     text-decoration: none;
@@ -13,6 +17,7 @@ body {
   .navigationbar{
     display: flex;
     justify-content: center;
+    box-shadow: 5px 10px 18px;
   }
 .logo{
     margin:0px;
@@ -43,37 +48,31 @@ nav ul li{
     
 
 }
-.paragraph-1{
-    font-family: Arial, sans-serif
-    font-weight: bold;
-    font-size: 20px;
+
+.welcome{
+    font-family: font-family: 'Roboto', sans-serif;
+
 }
 
+.submit{
+    position: fixed;
+    top: 2000;
+    left: 300px;
+}
 
-
-.mountclimb{
-    width: 300px;
+.newsletter {
+    width: 200px;
     height: auto;
-}
-.safaridrives{
-    width: 300px;
-    height: auto;
-}
-.beachwalk{
-    width: 300px;
-    height: auto;
-}
-
-.details ul{
-   list-style: none; 
-   
-   
-}
-.details ul li{
-
-justify-content: space-between;
-padding: 30px;
-}
-.submitdetails{
+    background-color: #C56C0F;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     
+    position: fixed;
+    top: 70px;
+    right: 70px;
 }
+   .beachwalk{
+    width: 1000px;
+    height: auto;
+   }
