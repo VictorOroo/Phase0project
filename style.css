@@ -1,0 +1,76 @@
+body {
+    background-image: url('./images/7808cb16-01cf-4f16-9581-e71785591775.jpeg');
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    max-width: 1200px;
+
+  }
+  a{
+    text-decoration: none;
+    color: #5fb113af;
+  }
+  .navigationbar{
+    display: flex;
+    justify-content: center;
+  }
+.logo{
+    margin:0px;
+    padding: 0;
+    
+}
+.header{
+    display: flex;
+   justify-content: space-between;
+   
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 100;
+    margin-left: 400px;
+
+    
+}
+nav ul li{
+    padding-right: 10px;
+    justify-content: space-between;
+    margin-right: 50px;
+    
+
+}
+.paragraph-1{
+    font-family: Arial, sans-serif
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.mountclimb{
+    width: 300px;
+    height: auto;
+}
+.safaridrives{
+    width: 300px;
+    height: auto;
+}
+.beachwalk{
+    width: 300px;
+    height: auto;
+}
+
+.details ul{
+   list-style: none; 
+   
+   
+}
+.details ul li{
+
+justify-content: space-between;
+padding: 30px;
+}
