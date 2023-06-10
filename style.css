@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
-body {
-    background-image
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+body{
+    background-color:rgb(239, 160, 45);
+    background-image: url(./images/pexels-asad-photo-maldives.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     max-width: 1200px;
     background-position: center center;
     background-attachment: fixed;
-    background-repeat: no-repeat; background-size: cover;
-    
-    
-  }
+   }
   a{
     text-decoration: none;
-    color: #5fb113af;
+    color: #753806a8;
   }
   .navigationbar{
     display: flex;
@@ -70,7 +68,7 @@ nav ul li{
 .newsletter {
     width: 200px;
     height: auto;
-    background-color: #C56C0F;
+    background-color: #eeab62;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -79,4 +77,23 @@ nav ul li{
     top: 70px;
     right: 70px;
 }
-   
+.beachwalk{
+    width: 600px;
+    height: auto;
+}
+.safaridrives{
+    width: 600px;
+    height: auto;
+    
+}
+.mountclimb{
+    width: 600px;
+    height: auto;
+}
+footer{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    color: #030303;
+    box-shadow: 0px 0px 4px rgb(220, 255, 222);
+}
