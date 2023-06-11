@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JUA-NCHI SAFARIS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  
     <header class="header">
         <div class="navigationbar">
             <div class="logo">
-                <h3>JUA-NCHI SAFARIS</h3>
+                <h3 class="pagetitle">JUA-NCHI SAFARIS</h3>
 
             </div>
             <nav>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT US</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><a href="#servicelink">SERVICES</a></li>
+                    <li><a href="#footer">CONTACT US</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-     <div>
+     <div id="aboutus">
         <h1 class="welcome">WELCOME TO JUA-NCHI SAFARIS.</h1>
     </div>
         <div> 
-          <h3 class="discoverplaces">Discover new places and create new experiences that you will hold on too for many<br> years with Jua-Nchi Safaris</h3>
+          <h3 class="discoverplaces">Discover new places and create new experiences that you will<br> hold on dearly for many years with Jua-Nchi Safaris.</h3>
         </div>
-        <p>Here at Jua-Nchi believe that we are all meant to travel and enjoy what nature has given to us for free, <br> therefore we make it our responsibility to give you that break you deserve and help you get away from<br> that normal boring routine.Ever thought of the following? Look no further, Jua-Nchi got you covered.</p>
+        <p class="introparagraph">Here at Jua-Nchi we believe that we are all meant to travel and enjoy Mother<br> nature while getting in touch with her, therefore we make it our responsibility<br> to give you that break you deserve and help you get away from that normal<br> boring routine. Ever thought of the following? Look no further, Jua-Nchi got<br> you covered. Get in touch with us to get more information.</p>
         
         <form class="newsletter">
-            <h2>Subscribe to our Newsletter</h2>
+            <h2>Subscribe to our Newsletter.</h2>
           
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Please fill in your name" required>
@@ -40,11 +44,11 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Please fill in your email" required>
           
-            <input type="submit" value="Submit">
+            <input class="button" type="submit" value="Subscribe">
         </form>
           
        <div class="service-images">
-            <figure>
+            <figure id="servicelink">
             <img class="beachwalk" src="./images/beachwalk-0EeKyFnlx-transformed.jpeg" alt="Image of someone at the beach">
             <figcaption>Take a long walk at the sandy beaches of Diani.</figcaption>
             </figure>
@@ -56,15 +60,16 @@
           
           <figure>
             <img class="mountclimb" src="./images/istockphoto-1009803562-1024x1024-transformed.jpeg" alt="Mountain Climbing">
-            <figcaption>Go mountain Climbing at Mt. Kilimanjaro</figcaption>
+            <figcaption>Go mountain climbing at Mt. Kilimanjaro.</figcaption>
           </figure>
 
         </div> 
 
-            <footer>
+            <footer id="footer">
                 <p class="location">Our location :</p>
-                <p>We are located at ngong lane plaza,along Ngong road</p>
-                <p>Contact: info@juanchikenya.com</p>
+                <p>We are located at Mwananchi plaza,along Ngong road.</p>
+                <p>Email: juanchike@gmail.com</p>
+                <p>Tel No: +24570000890</p>
 
                 <div class="sociallinks">
                     <h4 class="followings">Follow Us:</h4>
